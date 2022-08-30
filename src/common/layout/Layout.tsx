@@ -10,6 +10,7 @@ const Header = styled(CenteredContainer)`
     height: 8vh;
     max-height: 70px;
     background-color: ${props => (props.theme as ITheme).theme500};
+    margin-bottom: 5px;
 `
 
 const Logo = styled(CenteredElement)`
